@@ -1,0 +1,37 @@
+.title {
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    font-stretch: expanded;
+}
+
+.players {
+    word-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+
+.punteggio {
+    font-size: 150%;
+    word-spacing: 150px;
+    text-align: center;
+    color: white;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+    background-color: white;
+    width: 35%;
+    margin: 0 auto 0 auto
+}
+
+.grid-item {
+    aspect-ratio: 1;
+    background-color: black;
+    text-align: center;
+}
