@@ -12,19 +12,23 @@
     <h1><div class="title">TIC TAC TOE</div></h1>
     <p><div class="players">GIOCATORE 1 (X) - GIOCATORE 2 (O)</div></div></p>
     <p><div class="punteggio">0 0</div>/div></p>
-    
 
     <div class="grid-container">
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span>X</span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
-        <div class="grid-item"><span></span></div>
+        <div class="grid-item" onclick="play(0,0)"><span class="circle"></span></div>
+        <div class="grid-item" onclick="play(0,1)"><span></span></div>
+        <div class="grid-item" onclick="play(0,2)"><span></span></div>
+        <div class="grid-item" onclick="play(1,0)"><span class="cross">
+            <div class="cross-line cross-line-a"></div>
+                <div class="cross-line cross-line-b"></div>
+        </span></div>
+        <div class="grid-item" onclick="play(1,1)"><span></span></div>
+        <div class="grid-item" onclick="play(1,2)"><span></span></div>
+        <div class="grid-item" onclick="play(2,0)"><span></span></div>
+        <div class="grid-item" onclick="play(2,1)"><span></span></div>
+        <div class="grid-item" onclick="play(2,2)"><span></span></div>
       </div>
+
+      <script src="santa.js"></script>
     
 </body>
 </html>

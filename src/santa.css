@@ -1,6 +1,7 @@
+
 .title {
     margin-top: 2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
     text-align: center;
     color: white;
@@ -30,8 +31,44 @@
     margin: 0 auto 0 auto
 }
 
-.grid-item {
+.grid-item{
     aspect-ratio: 1;
     background-color: black;
-    text-align: center;
+    position: relative;
+}
+
+.grid-item > span {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 3em;
+}
+
+.circle {
+    margin-top: 12%;
+    border-radius: 50%;
+    border: white 500% solid;
+    background-color: black;
+    width: 60%;
+    height: 60%;
+}
+
+.line {
+    height: 60%;
+    width: 60%;
+    border: white 12px solid;
+}
+
+.cross {
+    margin-top: 10%;
+}
+
+#line-a {
+    transform: rotate(45deg);
+}
+
+#line-b {
+    transform: translateY(-100%) rotate(-45deg);
+
 }
