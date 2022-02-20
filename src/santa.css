@@ -21,7 +21,6 @@
     color: white;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -48,27 +47,27 @@
 .circle {
     margin-top: 12%;
     border-radius: 50%;
-    border: white 500% solid;
+    border: 12px white solid;
     background-color: black;
     width: 60%;
     height: 60%;
 }
 
-.line {
+.cross {
+    margin-top: 12%;
+}
+
+.cross-line {
     height: 60%;
     width: 60%;
-    border: white 12px solid;
+    border: white 0.3em solid;
 }
 
-.cross {
-    margin-top: 10%;
-}
-
-#line-a {
+#cross-line-a {
     transform: rotate(45deg);
 }
 
-#line-b {
+#cross-line-b {
     transform: translateY(-100%) rotate(-45deg);
 
 }
