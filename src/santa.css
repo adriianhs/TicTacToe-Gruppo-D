@@ -39,35 +39,37 @@
 .grid-item > span {
     position: absolute;
     top: 33%;
-    left: 47%;
+    left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    font-size: 3em;
+    
 }
 
 .circle {
     margin-top: 12%;
     border-radius: 50%;
-    border: 12px white solid;
+    border: white 12px solid;
     background-color: black;
     width: 60%;
     height: 60%;
 }
 
+.line {
+    background-color: white;
+    height: 10px;
+    width: 140px;
+    border: 12px;
+}
+
 .cross {
-    margin-top: 12%;
+    margin-top: 19%;
+    
 }
 
-.cross-line {
-    height: 60%;
-    width: 60%;
-    border: white 0.3em solid;
-}
-
-#cross-line-a {
+#line-a {
     transform: rotate(45deg);
 }
 
-#cross-line-b {
+#line-b {
     transform: translateY(-100%) rotate(-45deg);
 
 }
