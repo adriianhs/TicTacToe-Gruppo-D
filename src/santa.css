@@ -26,7 +26,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 6px;
     background-color: white;
-    width: 35%;
+    width: 80%;
     margin: 0 auto 0 auto
 }
 
@@ -45,9 +45,9 @@
 }
 
 .circle {
-    margin-top: 12%;
+    margin-top: 16%;
     border-radius: 50%;
-    border: white 12px solid;
+    border: white 5px solid;
     background-color: black;
     width: 60%;
     height: 60%;
@@ -55,13 +55,13 @@
 
 .line {
     background-color: white;
-    height: 10px;
-    width: 140px;
-    border: 12px;
+    height: 5px;
+    width: 80px;
+    border: 5px;
 }
 
 .cross {
-    margin-top: 19%;
+    margin-top: 21%;
     
 }
 
