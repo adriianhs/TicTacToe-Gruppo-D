@@ -49,8 +49,10 @@
     border-radius: 50%;
     border: white 5px solid;
     background-color: black;
-    width: 60%;
-    height: 60%;
+    max-width: 500px;
+    min-width: 55px;
+    max-height: 500px;
+    min-height: 55px;
 }
 
 .line {
